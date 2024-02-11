@@ -27,7 +27,7 @@ export default function Page() {
       "Change of heart?",
       "Please say yes, yessed",
       "Final final final answer?",
-      "You're breaking my heart agoi",
+      "You're breaking my heart mhie",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
