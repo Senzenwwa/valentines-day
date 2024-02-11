@@ -14,20 +14,20 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "Really sure?",
+      "Are you really sure?",
       "Are you positive???",
       "Pretty please 🥹",
-      "Surely not?",
-      "Just think about it",
-      "Give it another thought!",
+      "Surely not, frfr?",
+      "😘😘😘",
+      "Sige na please",
       "If you say no, I'll be very sad",
       "I'll be very very sad",
       "Pookie please",
       "I'll be very very very sad",
       "Change of heart?",
-      "Please YES, yessed",
+      "Please say yes, yessed",
       "Final final final answer?",
-      "You're breaking my heart ;(",
+      "You're breaking my heart agoi",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
